@@ -10,7 +10,6 @@ public class Book {
         this.yearPublishing = yearPublishing;
         this.authorName = authorName;
     }
-
     public String getName() {
         return this.name;
     }

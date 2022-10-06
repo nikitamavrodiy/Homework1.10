@@ -18,6 +18,7 @@ public class Main {
         printBook(megaBook);
         megaBook.setYearPublishing(2013);
         printBook(megaBook);
+
     }
     public static void printBook(Book nameBook) {
         System.out.println("Книга - " + nameBook.getName() + " " + nameBook.getYearPublishing() + " " + nameBook.getAuthorName());
