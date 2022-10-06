@@ -9,7 +9,6 @@ public class Main {
         Author roman = new Author("Roman", "Zvezdniy");
         printAuthor(roman);
 
-
         Book superBook = new Book("superBook", 2010, stepan);
         printBook(superBook);
         superBook.setYearPublishing(2009);
